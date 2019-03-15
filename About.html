@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+
+  <div class="alert alert-success alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert" name="button">&times</button>
+    <strong>Indicates success</strong>
+  </div>
+
+  <button type="button" class="btn btn-outline-dark btn-lg">Nigga</button>
+  <button type="button" class="btn btn-primary btn-lg ">
+    <span class="spinner-grow spinner-grow-lg"></span>
+    Loading...
+  </button>
+  <div class="btn-group btn-group-lg ">
+    <button type="button" class="btn btn-danger">RPG</button>
+    <button type="button" class="btn btn-light">Racing</button>
+    <button type="button" class="btn btn-primary">Combat</button>
+    <div class="btn-group btn-group-lg">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+      </button>
+      <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">Black Ops
+          <span class="badge badge-dark">3</span>
+        </a>
+        <a href="#" class="dropdown-item">Ghosts</a>
+        <a href="#" class="dropdown-item">Modern Warfare</a>
+      </div>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;">
+      <span class="sr-only"></span>60%
+    </div>
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:20%;">
+      <span class="sr-only"></span>20%
+    </div>
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:10%;">
+      <span class="sr-only"></span>10%
+    </div>
+   </div>
+   <div class="spinner spinner-grow spinner-grow-sm bg-dark">
+   </div>
+   <ul class="pagination">
+     <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+     <li class="page-item"><a class="page-link" href="#">1</a></li>
+     <li class="page-item"><a class="page-link" href="#">2</a></li>
+     <li class="page-item"><a class="page-link">....</a></li>
+     <li class="page-item"><a class="page-link" href="#">last</a></li>
+     <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+   </ul>
+   <ol class="breadcrumb">
+     <li class="breadcrumb-item"><a href="#">Combat</a></li>
+     <li class="breadcrumb-item"><a href="#">COD</a></li>
+     <li class="breadcrumb-item"><a href="#">Ghosts</a></li>
+   </ol>
+
+  <div class="card-columns">
+   <div class="card" style="width: 300px;">
+     <img class="card-img-bottom" src="man.jpg" alt="Card Image">
+     <div class="card-body">
+       <h4 class="card-title">John Doe</h4>
+       <p class="card-text">He is An Idiot Who Is Doing Engineering</p>
+       <a href="#" class="btn btn-primary">See Profile</a>
+     </div>
+   </div>
+    <div class="card" style="width: 300px;">
+     <img class="card-img-bottom" src="female.jpg" alt="Card Image">
+     <div class="card-body">
+       <h4 class="card-title">Jane Doe</h4>
+       <p class="card-text">She is Also An Idiot Who Is Doing Engineering</p>
+       <a href="#" class="btn btn-primary">See Profile</a>
+     </div>
+   </div>
+  </div>
+</div>
+
+</body>
+</html>
